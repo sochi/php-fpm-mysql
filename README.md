@@ -7,8 +7,8 @@ Note however that this image does not bundle MySQL server. Instead it only
 bundles the official PHP-FMP installation with a driver needed to connect to
 MySQL using [PDO](https://www.php.net/manual/en/class.pdo.php).
 
-[![Docker pulls](https://img.shields.io/docker/pulls/s0chi/php-fpm-mysql.svg)](https://hub.docker.com/r/s0chi/php-fpm-mysql/)
-[![Docker image layers](https://images.microbadger.com/badges/image/s0chi/php-fpm-mysql.svg)](https://microbadger.com/images/s0chi/php-fpm-mysql)
+[![Docker pulls](https://img.shields.io/docker/pulls/soch1/php-fpm-mysql.svg)](https://hub.docker.com/r/soch1/php-fpm-mysql/)
+[![Docker image layers](https://images.microbadger.com/badges/image/soch1/php-fpm-mysql.svg)](https://microbadger.com/images/soch1/php-fpm-mysql)
 
 
 ## Motivation
@@ -38,7 +38,7 @@ services:
       - php
       - db
   php:
-    image: s0chi/php-fpm-mysql
+    image: soch1/php-fpm-mysql
     volumes:
       - ./content:/var/www/html
   db:
