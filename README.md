@@ -52,3 +52,8 @@ The image is not expected to be used as base when building other images. The
 image definition is short so it would be preferable to directly include
 `RUN docker-php-ext-install pdo_mysql` in the respective `Dockerfile` instead of
 using this as a base image.
+
+
+## Availability
+
+The image can be downloaded from [Docker Hub](https://hub.docker.com/r/soch1/php-fpm-mysql).
